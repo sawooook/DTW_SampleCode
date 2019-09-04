@@ -62,4 +62,4 @@ if __name__ == '__main__':
             words = words + word + ' '
         whatis_musictitle=words.split(';')
         print(whatis_musictitle[0])
-        # 유사한 노래만 불러옴
+        # 유사한 노래만 불러
