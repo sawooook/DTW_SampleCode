@@ -10,6 +10,7 @@ from gensim.models.doc2vec import Doc2Vec, LabeledSentence
 TaggededDocument = gensim.models.doc2vec.TaggedDocument
 
 
+# 데이터 전처리
 def get_corpus():
     with open("/var/www/html/document.txt", 'r') as doc:
         docs = doc.readlines()
